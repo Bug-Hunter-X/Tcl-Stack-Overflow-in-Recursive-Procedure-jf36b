@@ -1,0 +1,2 @@
+# Tcl Stack Overflow Bug
+This repository demonstrates a common error in Tcl: stack overflow due to uncontrolled recursion. The `badproc` procedure recursively calls itself without a proper termination condition, leading to a stack overflow error when called with a sufficiently large argument. The solution shows how to modify the procedure to avoid the error.
